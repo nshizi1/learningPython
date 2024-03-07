@@ -96,3 +96,8 @@ print(x ^ y)   # Bitwise XOR: 0b110 (decimal 6)
 print(~x)      # Bitwise NOT: -6 (complement of 5)
 print(x << 1)  # Left Shift:  0b1010 (decimal 10)
 print(x >> 1)  # Right Shift: 0b10 (decimal 2)
+
+lorem = "lorem"
+ipsum = "ipsum"
+concat = lorem+" "+ipsum
+print(concat)
