@@ -97,3 +97,16 @@ if "names" in nestDict:
     print(f"Key exists with value {nestDict['names']}")
 else:
     print("Key does not exist")
+    
+people = {
+    "person": {
+        "names": {
+            "firstName": "Kevin",
+            "lastName": "Mitchell"
+        }
+    }
+}
+if "firstName" in people["person"]:
+    print(f"Key exists with value {people['person']['names']['first name']}")
+else:
+    print("Key does not exist")
